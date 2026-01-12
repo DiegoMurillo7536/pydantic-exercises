@@ -1,0 +1,19 @@
+{
+    "python.defaultInterpreterPath": "/home/dams/miniconda3/envs/pydantic_course/bin/python",
+    "python.condaPath": "/home/dams/miniconda3/bin/conda",
+    "python.terminal.activateEnvironment": true,
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}"
+    ],
+    "python.analysis.typeCheckingMode": "basic",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        },
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    }
+}

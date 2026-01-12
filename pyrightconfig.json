@@ -1,0 +1,15 @@
+{
+    "venvPath": "/home/dams/miniconda3/envs",
+    "venv": "pydantic_course",
+    "pythonVersion": "3.11",
+    "typeCheckingMode": "basic",
+    "reportMissingImports": true,
+    "reportMissingTypeStubs": false,
+    "include": [
+        "."
+    ],
+    "exclude": [
+        "**/__pycache__",
+        "**/.pytest_cache"
+    ]
+}
